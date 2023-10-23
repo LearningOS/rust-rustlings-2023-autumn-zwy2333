@@ -13,7 +13,7 @@ fn main() {
     let your_command = format!(
        // "Your command here with {}, please checkout exercises/tests/build.rs",
        // timestamp
-       "rustc-env=TEST_FOO={}",5
+       "rustc-env=TEST_FOO={}",timestamp
     );
     println!("cargo:{}", your_command);
 
